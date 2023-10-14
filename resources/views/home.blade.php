@@ -19,7 +19,7 @@
     <!-- Google fonts End -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- custon style Sheet & JavaScript -->
-    <link rel="stylesheet" href="{{asset('assets/css/index.css')}}"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
     <script src="{{asset('assets/js/index.js')}}" defer></script>
     <link rel="manifest" href="{{asset('assets/manifest.json')}}">
     <!-- custon style Sheet & JavaScript -->
