@@ -24,9 +24,10 @@
     <!-- custon style Sheet & JavaScript -->
     <title>Nosotros</title>
     @laravelPWA
+    @extends('layouts.app')
+    @section('content')
   </head>
-  @extends('layouts.app')
-  @section('content')
+
   
   <body class="home">
 
