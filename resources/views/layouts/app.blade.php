@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{{asset('assets/css/shop.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/index.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/about.css')}}">
 <head>
     @laravelPWA
 
