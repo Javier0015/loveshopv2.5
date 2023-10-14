@@ -25,10 +25,11 @@
     <!-- custon style Sheet & JavaScript -->
     <title>LoveShop</title>
     @laravelPWA
-  </head>
-@extends('layouts.app')
+      @extends('layouts.app')
 
 @section('content')
+  </head>
+
 <body class="home">
 
     <!-- ===========Hero Section===================== -->
